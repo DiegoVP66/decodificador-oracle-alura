@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <title>Decodificador de texto - Oracle One - Alura</title>
+  </head>
+  <body>
+    <!--Header -->
+    <header class="header-logo">
+      <img
+        src="assets/images/logo.svg"
+        alt="Logo da Alura, uma letra 'a' na cor azul escuro"
+      />
+    </header>
+
+    <!-- Main -->
+    <main class="container">
+      <!-- Top section -->
+      <section class="encrypt-text">
+        <!-- Input text -->
+        <div class="input-text">
+          <textarea
+            placeholder="Digite seu texto"
+            cols="30"
+            rows="10"
+          ></textarea>
+        </div>
+
+        <!-- Info -->
+        <div>
+          <div class="info">
+            <img src="assets/images/exclamation.svg" alt="" />
+            <p>Apenas letras minúsculas e sem acento.</p>
+          </div>
+
+          <!-- Cod buttons -->
+          <div class="btn-container">
+            <button class="btn-encrypt">Criptografar</button>
+            <button class="btn-decrypt">Descriptografar</button>
+          </div>
+        </div>
+      </section>
+
+      <!--Bottom section -->
+      <section class="output">
+        <!-- Items -->
+        <div class="output-items">
+          <div class="output-img">
+            <img src="assets/images/main-image.svg" alt="" />
+          </div>
+          <!-- Dinamic items -->
+          <div class="output-text">
+            <textarea name="" id="" cols="30" rows="10"></textarea>
+            <button>Copiar</button>
+          </div>
+          <!-- Static items -->
+          <div class="static-items">
+            <h1>Nenhuma mensagem encontrada</h1>
+            <p>
+              Digite um texto que você deseja criptografar ou descriptografar.
+            </p>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <script src="assets/js/script.js"></script>
+  </body>
+</html>
