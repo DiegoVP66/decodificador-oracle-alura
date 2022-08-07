@@ -23,9 +23,11 @@
         <!-- Input text -->
         <div class="input-text">
           <textarea
+            id="cod-input-Text"
             placeholder="Digite seu texto"
             cols="30"
             rows="10"
+            autofocus
           ></textarea>
         </div>
 
@@ -53,8 +55,8 @@
           </div>
           <!-- Dinamic items -->
           <div class="output-text">
-            <textarea name="" id="" cols="30" rows="10"></textarea>
-            <button>Copiar</button>
+            <textarea name="" id="output-msg" cols="30" rows="10"></textarea>
+            <button id="copy">Copiar</button>
           </div>
           <!-- Static items -->
           <div class="static-items">
@@ -67,6 +69,6 @@
       </section>
     </main>
 
-    <script src="assets/js/script.js"></script>
+    <script src="assets/js/script.js" type="module"></script>
   </body>
 </html>
