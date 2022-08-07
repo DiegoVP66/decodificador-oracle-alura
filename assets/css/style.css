@@ -24,12 +24,24 @@ body {
 /* Header */
 .header-logo {
   margin: 24px 0 80px 16px;
-  width: 100px;
+  width: 95%;
 }
 
 .header-logo img {
   width: 32px;
   height: 40px;
+}
+
+.header-container {
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+  margin-top: -60px;
+  padding: 30px;
+}
+
+.header-container img:first-child {
+  margin-right: 10px;
 }
 
 /* Page container  */
@@ -49,6 +61,7 @@ body {
 }
 
 .input-text textarea:focus {
+  text-transform: lowercase;
   box-shadow: 0 0 0 0;
   outline: 0;
 }
@@ -147,7 +160,6 @@ body {
   color: var(--dark-blue-color);
   margin-top: 45px;
 }
-
 
 /*static items*/
 .static-items {

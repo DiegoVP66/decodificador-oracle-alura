@@ -14,6 +14,18 @@
         src="assets/images/logo.svg"
         alt="Logo da Alura, uma letra 'a' na cor azul escuro"
       />
+      <!-- Social media -->
+      <nav class="header-container">
+        <a href="https://github.com/DiegoVP66" target="_blank">
+          <img src="assets/images/git.svg" alt="github logo" />
+        </a>
+        <a
+          href="https://www.linkedin.com/in/diego-pereira-dev/"
+          target="_blank"
+        >
+          <img src="assets/images/in.svg" alt="linkedIn logo" />
+        </a>
+      </nav>
     </header>
 
     <!-- Main -->
@@ -27,7 +39,6 @@
             placeholder="Digite seu texto"
             cols="30"
             rows="10"
-            autofocus
           ></textarea>
         </div>
 
@@ -51,11 +62,15 @@
         <!-- Items -->
         <div class="output-items">
           <div class="output-img">
-            <img src="assets/images/main-image.svg" alt="" />
+            <img
+              src="assets/images/main-image.svg"
+              alt="Desenho de uma pessoa olhando um diamante através de uma lupa. 
+              A pessoa tem cabelo azul e está vestindo uma regata azul, calça branca e sapatos pretos"
+            />
           </div>
           <!-- Dinamic items -->
           <div class="output-text">
-            <textarea name="" id="output-msg" cols="30" rows="10"></textarea>
+            <textarea readonly id="output-msg" cols="30" rows="10"></textarea>
             <button id="copy">Copiar</button>
           </div>
           <!-- Static items -->

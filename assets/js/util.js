@@ -1,3 +1,4 @@
+/* List regex*/
 export const encryptList = {
   e: "enter",
   i: "imes",
@@ -12,5 +13,5 @@ export const decryptList = {
   ober: "o",
   ufat: "u",
 };
-export const regex = /[aeiou]/g;
-
+export const regexEncrypt = /[aeiou]/g;
+export const regexDecrypt = new RegExp(Object.keys(decryptList).join("|"), "g");
