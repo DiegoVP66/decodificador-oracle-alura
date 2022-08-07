@@ -66,7 +66,7 @@ const copyText = () => {
 /*  Disable special characters and accents  */
 const constraints = (e) => {
   const element = String.fromCharCode(e.keyCode);
-  const pattern = "[a-zA-Z0-9]";
+  const pattern = "[a-zA-Z0-9 ]";
 
   if (element.match(pattern)) {
     return true;
