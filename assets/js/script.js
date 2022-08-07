@@ -52,6 +52,7 @@ const decrypt = () => {
     (element) => decryptList[element]
   );
   textInput.value = "";
+  enableDisable();
 };
 
 // function copy text
