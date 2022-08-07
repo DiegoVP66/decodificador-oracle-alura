@@ -26,7 +26,6 @@ let decryptText;
 // encrypt text funcion
 const encryptText = () => {
   result = textInput.value;
-  decryptText = textInput.value;
   if (result != "") {
     textOutput.innerHTML = result.replace(
       regexEncrypt,
@@ -34,6 +33,7 @@ const encryptText = () => {
     );
   }
   textInput.value = "";
+  btnCopy.style.color = "#0a3871";
   enableDisable();
 };
 
@@ -45,6 +45,7 @@ const focus = () => {
 // decrypt function
 const decrypt = () => {
   textOutput.innerHTML = "";
+  decryptText = textInput.value;
   textOutput.innerHTML = decryptText.replace(
     regexDecrypt,
     (element) => decryptList[element]
