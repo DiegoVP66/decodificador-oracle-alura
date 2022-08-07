@@ -11,6 +11,7 @@ body {
   font-style: normal;
   font-weight: 400;
   line-height: 150%;
+  height: 100vh;
 }
 
 :root {
@@ -19,6 +20,13 @@ body {
   --light-color: #ffffff;
   --gray-color: #495057;
   --dark-color: #343a40;
+}
+
+.dev {
+  font-size: 12px;
+  font-weight: 700;
+  margin-top: -10px;
+  color: var(--dark-blue-color);
 }
 
 /* Header */

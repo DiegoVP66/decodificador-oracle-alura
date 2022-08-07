@@ -1,3 +1,4 @@
+/* Diego Vicente Pereira 05/08/2022 */
 import {
   encryptList,
   decryptList,
